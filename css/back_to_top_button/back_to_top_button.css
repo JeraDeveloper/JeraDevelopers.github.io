@@ -1,0 +1,32 @@
+.back_to_top_button {
+    background-color: var(--terminal-slate);
+    padding: 10px;
+    border-radius: 15px;
+    border: solid 1px var(--cyber-green);
+    color: var(--cyber-green);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    width: fit-content;
+    transform: translateY(20px);
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 1000;
+    visibility: hidden;
+    opacity: 0;
+    cursor:pointer;
+}
+
+.back_to_top_button:hover {
+    background-color: rgba(93, 254, 13, 0.2);
+}
+
+.back_to_top_button:active {
+    background-color: rgba(93, 254, 13, 0.2);
+}
+
+.back_to_top_button.button_is_visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}

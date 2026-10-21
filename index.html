@@ -6,16 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jera Developers | Home</title>
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="css/styles.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="shortcut icon" href="assets/img/logo/jera-icon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="https://ik.imagekit.io/jeradevs/Jera%20Developers/logo-icon.ico?updatedAt=1791834866233" type="image/x-icon">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
 </head>
 
 <body>
   <!-- Loader -->
-  <div class="loader">
-    <img src="assets/img/logo/logo-white.png" alt="Jera Devs Logo">
-  </div>
+  <!-- <div class="loader">
+    <img src="img/logo/logo-white.png" alt="Jera Devs Logo">
+  </div> -->
 
   <!-- Content -->
   <!-- <div class="container"> -->
@@ -31,7 +33,7 @@
 
     <!-- Header -->
 
-    <header id="header" class="slide">
+    <header id="header">
       <div class="header_content">
 
         <div class="contenedor_menu">
@@ -39,7 +41,7 @@
           <!-- Logo simplificado -->
 
           <div class="logo">
-            <img src="assets/img/logo/logo-simple.png" alt="Jera Devs logo" />
+            <img src="img/logo/logo-simple.png" alt="Jera Devs logo" />
           </div>
           <!-- Close -- Logo simplificado -->
 
@@ -63,27 +65,27 @@
 
         <div class="main_logo">
           <!-- Logo grande -->
-          <img src="assets/img/logo/logo.png" alt="Jera Devs Logo" class="moving_logo" />
+          <img src="img/logo/logo.png" alt="Jera Devs Logo" class="moving_logo" />
         </div>
 
         <div class="social">
 
           <ul>
             <li>
-              <a href="https://github.com/JeraDevelopers" title="Github"><img src="assets/img/Redes sociales/github.png"
+              <a href="https://github.com/JeraDevelopers" title="Github"><img src="img/Redes sociales/github.png"
                   alt="Github icon" /></a>
             </li>
             <li>
-              <a href="comingSoon.html" title="Twitter"><img src="assets/img/Redes sociales/twitter.png"
+              <a href="comingSoon.html" title="Twitter"><img src="img/Redes sociales/twitter.png"
                   alt="Twitter icon" /></a>
             </li>
             <li>
-              <a href="comingSoon.html" title="Instagram"><img src="assets/img/Redes sociales/instagram.png"
+              <a href="comingSoon.html" title="Instagram"><img src="img/Redes sociales/instagram.png"
                   alt="Instagram icon" /></a>
             </li>
             <li>
               <a href="https://api.whatsapp.com/send?phone=584129978441" title="Whatsapp"><img
-                  src="assets/img/Redes sociales/whatsapp.png" alt="Whatsapp icon" /></a>
+                  src="img/Redes sociales/whatsapp.png" alt="Whatsapp icon" /></a>
             </li>
           </ul>
 
@@ -105,10 +107,10 @@
 
     <!-- About us -->
 
-    <section id="about_us" class="about_us slide">
+    <section data-aos="fade-right" id="about_us" class="about_us">
       <div class="about_us_content">
         <div class="about_us_img about_us_item">
-          <img src="assets/img/logo/logo-white.png" alt="Jera Devs logo" />
+          <img src="img/logo/logo-white.png" alt="Jera Devs logo" />
         </div>
 
         <div class="about_us_text about_us_item">
@@ -130,7 +132,7 @@
             We are committed to delivering high-quality work that meets your needs, and we are always working to enhance
             our knowledge to make greater and bigger apps in the future.
           </p>
-          <a href="comingSoon.html" class="about_us_see_more_button">See More</a>
+          <a href="comingSoon.html" class="base_button">See More</a>
         </div>
       </div>
     </section>
@@ -143,11 +145,9 @@
 
 
 
-
-
     <!-- Portfolio -->
 
-    <section id="portfolio" class="portfolio slide">
+    <section data-aos="fade" id="portfolio" class="portfolio">
 
       <div class="portfolio_content">
 
@@ -155,25 +155,25 @@
 
         <div class="portfolio_gallery">
 
-          <div class="gallery_img">
+          <div data-aos="flip-up" class="gallery_img">
             <h3>Grupo M & M</h3>
-            <img src="assets/img/Portfolio/grupo_mm.png" alt="Grupo M & M">
+            <img src="img/Portfolio/grupo_mm.png" alt="Grupo M & M">
             <div class="project_links">
               <a href="https://grupo-mm.vercel.app/" target="_blank">Visit Website</a>
             </div>
           </div>
 
-          <div class="gallery_img">
+          <div data-aos="flip-up" data-aos-delay="100" class="gallery_img">
             <h3>Floristería ikebana</h3>
-            <img src="assets/img/Portfolio/ikebana.png" alt="Floristería ikebana">
+            <img src="img/Portfolio/ikebana.png" alt="Floristería ikebana">
             <div class="project_links">
               <a href="https://floristeriaikebana.shop/" target="_blank">Visit Website</a>
             </div>
           </div>
 
-          <div class="gallery_img">
+          <div data-aos="flip-up" data-aos-delay="200" class="gallery_img">
             <h3>Majo Portrait</h3>
-            <img src="assets/img/Portfolio/majo_portrait.png" alt="Majo portrait, productora audiovisual ">
+            <img src="img/Portfolio/majo_portrait.png" alt="Majo portrait, productora audiovisual ">
             <div class="project_links">
               <a href="#" target="_blank">Visit Website</a>
             </div>
@@ -197,11 +197,12 @@
 
     <!-- Services -->
 
-    <section id="services" class="services slide">
+    <section data-aos="fade" data-aos-duration="1000" id="services" class="services">
+      
       <div class="services_content">
         <div class="service_display">
           <div class="service_img_container">
-            <img class="service_img" id="1" src="assets/img/Services/web-development.png"
+            <img class="service_img" id="1" src="img/Services/web-development.png"
               alt="Web development service" />
           </div>
           <div class="service_description">
@@ -215,16 +216,18 @@
             </p>
           </div>
         </div>
+
         <div class="services_list">
-          <img class="service_thumb service_slide" src="assets/img/Services/web-development.png"
+          <img class="service_thumb service_slide" src="img/Services/web-development.png"
             alt="Web development service" />
-          <img class="service_thumb service_slide" src="assets/img/Services/web-design.png" alt="Web design service" />
-          <img class="service_thumb service_slide" src="assets/img/Services/web-mantainance.png"
+          <img class="service_thumb service_slide" src="img/Services/web-design.png" alt="Web design service" />
+          <img class="service_thumb service_slide" src="img/Services/web-mantainance.png"
             alt="Web mantainance service" />
           <div class="see_more_button_container  service_slide">
             <a href="comingSoon.html" class="base_button">See More</a>
           </div>
         </div>
+        
       </div>
     </section>
 
@@ -240,10 +243,10 @@
 
     <!-- Footer -->
 
-    <footer id="footer" class="footer slide">
+    <footer data-aos="fade-right" data-aos-duration="1000" id="footer" class="footer">
       <div class="footer_content ">
         <div class="footer_logo">
-          <img src="assets/img/logo/logo-simple-white.png" alt="Jera Devs logo" />
+          <img src="img/logo/logo-simple-white.png" alt="Jera Devs logo" />
         </div>
         <div class="footer_info">
           <div class="footer_navbar">
@@ -281,25 +284,25 @@
             <ul>
               <li>
                 <a href="https://github.com/JeraDevelopers" title="Github"><img
-                    src="assets/img/Redes sociales/github.png" alt="Github logo" /></a>
+                    src="img/Redes sociales/github.png" alt="Github logo" /></a>
               </li>
               <li>
-                <a href="comingSoon.html" title="Twitter"><img src="assets/img/Redes sociales/twitter.png"
+                <a href="comingSoon.html" title="Twitter"><img src="img/Redes sociales/twitter.png"
                     alt="Twitter logo" /></a>
               </li>
               <li>
-                <a href="comingSoon.html" title="Instagram"><img src="assets/img/Redes sociales/instagram.png"
+                <a href="comingSoon.html" title="Instagram"><img src="img/Redes sociales/instagram.png"
                     alt="Instagram logo" /></a>
               </li>
               <li>
                 <a href="https://api.whatsapp.com/send?phone=584129978441" title="Whatsapp"><img
-                    src="assets/img/Redes sociales/whatsapp.png" alt="Whatsapp logo" /></a>
+                    src="img/Redes sociales/whatsapp.png" alt="Whatsapp logo" /></a>
               </li>
             </ul>
           </div>
         </div>
         <div class="footer_copyright">
-          <p>Made by <b>Jera Developers</b> | 2023 | All rights reserved.</p>
+          <p>Made by <b>Jera Developers</b> | 2026 | All rights reserved.</p>
         </div>
       </div>
     </footer>
@@ -317,7 +320,9 @@
 
     <!-- Back to top button -->
 
-    <a href="#header" class="back_to_top_button">Back To Top</a>
+    <button type="button" id="backToTopButton" class="back_to_top_button">
+        Back to top
+    </button>
 
     <!-- Close -- Back to top button -->
 
@@ -332,7 +337,14 @@
 
   <!-- </div> -->
 
-  <script type="module" src="assets/js/main.js"></script>
+  <!-- Modulo de JavaScript principal -->
+  <script type="module" src="js/main.js"></script>
+
+  <!--Animate on scroll-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Swiper JS para el carruseles -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
 </body>
 

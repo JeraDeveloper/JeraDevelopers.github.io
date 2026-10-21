@@ -1,0 +1,62 @@
+/* Importar archivos css por seccion */
+
+@import url("header/header.css");
+@import url("about_us/about_us.css");
+@import url("portfolio/portfolio.css");
+@import url("services/services.css");
+@import url("footer/footer.css");
+@import url("pre_loader/pre_loader.css");
+@import url("scrollbar/scrollbar.css");
+@import url("back_to_top_button/back_to_top_button.css");
+
+
+
+
+
+
+
+
+
+
+/* Configuraciones iniciales */
+
+
+
+/* Declaracion de tipografia y de paleta de colores */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+
+    /*Variables de tipografia*/
+    --main: 'Montserrat', sans-serif;
+    --secondary: 'Roboto', sans-serif;
+    --code: 'Fira Code', monospace;
+
+    /*Variables de paleta de colores*/
+    --tech-blue:#4B9EFF;
+    --cyber-green:#5DFE0D;
+    --terminal-slate:#0F172A;
+}
+
+
+
+/* Box-sizing reset */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+/* Definicion de fuentes y color de fondogenerales */
+
+body {
+    font-family: var(--secondary);
+    background-color: var(--terminal-slate);
+}
